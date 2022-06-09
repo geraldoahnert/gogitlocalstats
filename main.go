@@ -1,14 +1,8 @@
 package main
 
-import "flag"
-
-func scan(path string) {
-	print("scan")
-}
-
-func stats(email string) {
-	print("stats")
-}
+import (
+	"flag"
+)
 
 func main() {
 	var folder string
